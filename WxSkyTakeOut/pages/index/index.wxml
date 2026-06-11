@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    {{msg}}
+  </view>
+  <view>
+    {{nickName}}
+    <image src="{{url}}" mode="" style="width: 100px; height: 100px;"></image>
+  </view>
+  <view>
+  <button type="default" bind:tap="getUserInfo">点击获取用户信息</button>
+  </view>
+  <view><button type="default" bind:tap="Userlogin">登录</button></view>
+</scroll-view>
