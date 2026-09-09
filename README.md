@@ -1,4 +1,6 @@
-# 优选外卖点餐系统 
+# 优选外卖点餐系统
+
+[English](README.en.md) | [日本語](README.ja.md)
 
 一个完整的外卖点餐系统，包含 Spring Boot 后端和微信小程序前端。
 
